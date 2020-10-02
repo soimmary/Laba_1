@@ -60,4 +60,4 @@ if __name__ == '__main__':
     print(f'\nThe second tree:')
     print_tree(tree2)
 
-    print(f'\nIs the second tree is a subtree for the first one: {is_subtree_in_tree(tree1, tree2)}.')
+    print(f'\nIs the second tree is a subtree of the first one: {is_subtree_in_tree(tree1, tree2)}.')
