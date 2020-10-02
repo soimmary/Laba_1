@@ -48,6 +48,9 @@ def is_subtree_in_tree(tree, subtree):
 
 
 if __name__ == '__main__':
+    # tree2ns.txt – дерево не является поддеревом (not subtree)
+    # tree2s.txt – дерево является поддеревом (subtree)
+    # можно проветить на обоих файлах, но в коде проверяю на tree2ns.txt
     tree1 = tree_of_sentence('tree1.txt')
     tree2 = tree_of_sentence('tree2ns.txt')
 
